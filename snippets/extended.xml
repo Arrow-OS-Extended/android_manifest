@@ -47,6 +47,7 @@
   <project path="lineage-sdk" name="android_lineage-sdk" remote="extended" />
 
   <!-- hardware repos -->
+  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="extended" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="extended" />
   <project path="hardware/motorola" name="android_hardware_motorola" remote="extended" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="extended" />

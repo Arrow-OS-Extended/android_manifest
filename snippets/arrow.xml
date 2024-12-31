@@ -108,7 +108,6 @@
   <project path="hardware/qcom/sm8150/media" name="android_hardware_qcom_sm8150_media" groups="generic_fs,qcom_sm8150" remote="arrow" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrow" />
   <project path="hardware/arrow/compat" name="android_hardware_arrow_compat" remote="arrow" />
-  <project path="hardware/arrow/interfaces" name="android_hardware_arrow_interfaces" remote="arrow" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="arrow" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="arrow" />
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="arrow" />
