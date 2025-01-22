@@ -26,6 +26,21 @@ Then, sync the sources:
 repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 ```
 
+Preparing device for building ArrowOS-Extended:
+-------------------
+**Inherit ArrowOS vendor stuffs**
+
+```bash
+$(call inherit-product, vendor/arrow/config/common.mk)
+```
+
+GMS Flags
+-------------------
+```bash
+# GMS build flags
+ARROW_GAPPS := true
+```
+
 Building the System
 -------------------
 First, initialize the ROM environment with the envsetup.sh script:
@@ -62,7 +77,7 @@ Or if you already have your keys, clone them to vendor/arrow/signing/keys.
 
 [Changelog Monthly](https://github.com/ArrowOS-Extended/arrow_extended_changelog)
 
-[Updates Channel](https://t.me/arrowextended)
+[Updates Channel](https://t.me/+A6yNcbi4ih0zNDFh)
 
 ---------------------------------------------------------------------------------------------------------------------
 
