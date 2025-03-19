@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="extended"
-        fetch="https://github.com/ArrowOS-Extended"
+        fetch="https://github.com/Arrow-OS-Extended"
         revision="arrow-13.1" />
 
   <remote name="extended-gitlab"

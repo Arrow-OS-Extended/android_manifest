@@ -17,7 +17,7 @@ git-lfs install
 To initialize your local repository, use command:
 
 ```bash
-repo init -u https://github.com/ArrowOS-Extended/android_manifest.git -b arrow-13.1 --git-lfs
+repo init -u https://github.com/Arrow-OS-Extended/android_manifest.git -b arrow-13.1 --git-lfs
 ```
 
 Then, sync the sources:
