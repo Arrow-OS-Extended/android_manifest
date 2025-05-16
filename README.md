@@ -41,6 +41,13 @@ GMS Flags
 ARROW_GAPPS := true
 ```
 
+Bypass Charging Flags
+-------------------
+```bash
+# Bypass Charging flags
+BYPASS_CHARGE_SUPPORTED := true
+```
+
 Building the System
 -------------------
 First, initialize the ROM environment with the envsetup.sh script:
@@ -75,9 +82,7 @@ Or if you already have your keys, clone them to vendor/arrow/signing/keys.
 
 **Changelog:**
 
-[Changelog Monthly](https://github.com/ArrowOS-Extended/arrow_extended_changelog)
-
-[Updates Channel](https://t.me/+A6yNcbi4ih0zNDFh)
+[Changelog Monthly](https://github.com/Arrow-OS-Extended/arrow_extended_changelog)
 
 ---------------------------------------------------------------------------------------------------------------------
 
