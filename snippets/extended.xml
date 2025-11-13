@@ -46,6 +46,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="extended" />
   <project path="frameworks/base" name="android_frameworks_base" remote="extended" />
   <project path="frameworks/native" name="android_frameworks_native" remote="extended" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="extended" />
   <project path="lineage-sdk" name="android_lineage-sdk" remote="extended" />
 
   <!-- hardware repos -->
@@ -60,6 +61,7 @@
   <!-- packages repos -->
   <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="extended" />
   <project path="packages/apps/ArrowPrebuilts" name="android_packages_apps_ArrowPrebuilts" remote="extended" clone-depth="1" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="extended" />
   <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" remote="extended" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="extended" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="extended" />
@@ -67,6 +69,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="extended" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="extended" />
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="extended" />
+  <project path="packages/modules/CellBroadcastService" name="android_packages_modules_CellBroadcastService" groups="pdk" remote="extended" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="extended" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="extended" />
   <project path="packages/modules/IntentResolver" name="android_packages_modules_IntentResolver" groups="pdk" remote="extended" />
